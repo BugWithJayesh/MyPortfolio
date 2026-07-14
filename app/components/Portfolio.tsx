@@ -216,9 +216,12 @@ function Hero() {
       >
         <div className="portrait-ring" role="img" aria-label="Profile photo placeholder for Jayesh Bairagi">
           <div className="portrait-placeholder">
-            <span>JB</span>
-            <small>Photo</small>
-          </div>
+            <img
+              src="/profile.jpg"
+              alt="Jayesh Bairagi"
+              className="profile-photo"
+            />
+        </div>
         </div>
         <div className="portrait-caption">
           <MapPin aria-hidden="true" /> Nagda Junction, India
