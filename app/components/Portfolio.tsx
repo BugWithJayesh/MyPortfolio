@@ -28,6 +28,7 @@ import {
 
 const EMAIL = "exe.jayesh@gmail.com";
 const GITHUB = "https://github.com/BugWithJayesh";
+const LINKEDIN = "www.linkedin.com/in/jayesh-bairagi-904a76421";
 const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT?.trim();
 
 type ContactField = "name" | "email" | "message";
@@ -534,7 +535,7 @@ function Contact() {
         <div className="contact-links">
           <a href={`mailto:${EMAIL}`}><Mail aria-hidden="true" /><span>Email<small>{EMAIL}</small></span></a>
           <a href={GITHUB} target="_blank" rel="noreferrer"><GitFork aria-hidden="true" /><span>GitHub<small>@BugWithJayesh</small></span></a>
-          <span className="disabled-social" aria-label="LinkedIn profile coming soon"><ContactRound aria-hidden="true" /><span>LinkedIn<small>Coming soon</small></span></span>
+          <a href={LINKEDIN} target="_blank" rel="noreferrer"><ContactRound aria-hidden="true" /><span>LinkedIn<small>@Jayesh Bairagi</small></span></a>
         </div>
       </FadeIn>
 
