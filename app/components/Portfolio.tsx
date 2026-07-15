@@ -28,7 +28,7 @@ import {
 
 const EMAIL = "exe.jayesh@gmail.com";
 const GITHUB = "https://github.com/BugWithJayesh";
-const LINKEDIN = "www.linkedin.com/in/jayesh-bairagi-904a76421";
+const LINKEDIN = "https://www.linkedin.com/in/jayesh-bairagi-904a76421/";
 const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT?.trim();
 
 type ContactField = "name" | "email" | "message";
