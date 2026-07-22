@@ -22,7 +22,7 @@ const ScrollSequence: React.FC<ScrollSequenceProps> = ({
   const imagesRef = useRef<Record<number, HTMLImageElement>>({});
   const loadedArrayRef = useRef<number[]>([]);
   
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number | null>(null);
   const targetFrameRef = useRef<number>(0);
   const currentFrameRef = useRef<number>(0);
 
